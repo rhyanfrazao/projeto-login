@@ -51,4 +51,12 @@
         width: 100%;
         height: 60%;
     }
+
+    section#login > div#formulario > h1{
+        font-size: 2em;
+    }
+
+    section#login > div#formulario > p{
+        font-size: 1.3em;
+    }
 }
