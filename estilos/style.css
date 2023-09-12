@@ -37,19 +37,26 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
     display: block;
+
+    /*Animação simples*/
+    transition: width 0.5s, height 0.5s;
 }
 
 section#login > div#imagem{
     background-color: #6b523c;
     background-image: url(../imagens/pattern-building.jpg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     height: 230px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
+    display: block;
 
 }
 
 section#login > div#formulario{
     padding: 10px;
     display: block;
+    color: #02253d;
 }
